@@ -1,0 +1,64 @@
+body{
+    margin: 10px;
+}
+
+.section-3{
+    width: 100%;
+    justify-content: space-between
+}
+
+.container{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: auto;
+}
+.footer{
+    width: auto;
+}
+ thead{
+    border-bottom: 5px solid black;
+    text-align:solid black;
+}
+#text{
+    text-align: solid black;
+}
+table,tr,td{
+    width: 100%;
+    justify-content: space-around;
+    
+}
+tbody{ width: 100%;}
+ table.top-text{
+    display: flex;
+}
+@media screen and (max-width: 900px){
+body{
+    background-color: white;}
+}
+ @media screen and(max-width:600px) {
+    body{
+        background-color: black;
+    }
+    
+ }   
+ span.bage text-primary{
+    align-items: end;
+ }
+ #text{
+    align-items: center;
+ }
+ .section-3 table{
+    table-layout: auto;
+    width: 100%;
+    
+
+ }
+ span{
+    align-items: flex-end;
+    padding-left: 0px;
+ }
+ label{
+    align-items: flex-end;
+ }
